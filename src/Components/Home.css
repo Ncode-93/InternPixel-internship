@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.hero-section{
+    padding: 77px ; /* Adjust this value to set the desired gap between navbar and text */
+    text-align: center;
+}
+
+
+.bold-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.05em;
+    margin-bottom: 20px;
+    padding: 10px 30px 10px 20px;
+}
+.techne-purple{
+    color: #651fff;
+}
+
+.grey-text{
+    /* background-color: aqua; */
+    padding: 0 250px 0 250px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    justify-content: center;
+
+}
+.button-pair{
+    display: flex;
+    justify-content: center;
+    /* text-decoration: underline; */
+}
+.get-started-button{
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 10px 30px;
+    background-color: #651fff;
+    font-weight: bolder;
+    color: white;
+    margin-right: 50px;
+}
+.pricing-button{
+    font-family: 'Montserrat', sans-serif;
+    width: 112px;
+    height: 42px;
+    border: 2px solid ;
+    border-radius: 12px;
+    padding: 9px, 17px;
+    top: 11px;
+    left: 1096px;
+    border-width: 2px;
+    font-weight: bolder;
+}
+
+.image-one{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: fit-content;
+    height: fit-content; */
+}
+.imgur{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Three Cards Area */
+
+/* .three-cards-area{
+    background-color: aqua;
+} */
+
+.three-cards-bold-line{    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    left: 157px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.three-cards-grey-line{
+    padding: 0 320px 20px 320px;
+    color: grey;
+    align-items: center;
+    text-align: center;    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    /* text-align: center; */
+
+}

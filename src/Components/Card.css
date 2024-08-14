@@ -1,0 +1,112 @@
+/* .card-container{
+    background-color: aqua;
+    margin: 20px 20px 20px 20px;
+}
+.card-one{
+    border: 2px solid black;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100,700&display=swap');
+
+.features-section {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 50px 20px;
+    /* background-color: #f9f9f9; */
+
+}
+
+.features-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* .features-section p {
+    font-family: 'Montserrat', sans-serif;
+    /* color: black; */
+    ;
+    /* font-family: Montserrat; */
+    /* font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em; */
+    /* text-align: left; */
+    /* font-weight:lighter; */
+    /* color: #ffffff; Adjust color as needed */
+    /* background-color: #6a0dad; Adjust background as needed */
+    /* padding: 20px; */
+
+    /* font-size: 1.2em; */
+    /* color: #9193a2; */
+    /* margin-bottom: 40px; */
+/* } */ 
+.para{
+    margin: 10px 200px 150px 200px;
+    background-color: aqua;
+    color: #9193a2;
+}
+
+.features-grid {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.feature-card {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #651fff;
+    color: white;
+    border-radius: 24px;
+    padding: 20px;
+    flex: 1;
+    max-width: 300px;
+    /* height: 395px; */
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.feature-icon {
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    /* margin-bottom: 10px; */
+}
+
+.feature-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ECECFE;
+    /* font-size:x-small; */
+    font-weight:100 ;
+    margin-bottom: 20px;
+
+    font-size: 16px;
+    /* font-weight: 400; */
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.feature-card a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    /* margin-bottom: 20px; */
+
+}
+
+.feature-card a:hover {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}

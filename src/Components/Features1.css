@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100,700&display=swap');
+
+.container {
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: aqua; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.h1-text {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.highlight {
+    color: #6c63ff;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.h2fileshare {
+    color: #6c63ff;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.pfileshare {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.file-sharing {
+    background-color: #FFF7ED;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 400px;
+    height: 550px;
+    padding: 0rem 1rem 0 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: grey;
+}
+
+.h2collectfile {
+    color: #6c63ff;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.pcollectfile {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.collect-files {
+    background-color: #E0F7FA;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 400px;
+    height: 550px;
+    padding: 0rem 1rem 0 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: grey;
+}
+
+.team-collaboration {
+    background-color: #eaeaff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1143px;
+}
+
+.text-and-image {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+.text-content {
+    text-align: left;
+    padding: 20px;
+}
+
+.h2teamcollab {
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    margin-bottom: 10px;
+}
+
+.spanteamcollab {
+    color: #6c63ff;
+}
+
+.pteamcollab {
+    color: grey;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.start-now {
+    height: 48px;
+    width: 164px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #651fff;
+    font-weight: bolder;
+    color: white;
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.more-features {
+    font-family: 'Montserrat', sans-serif;
+    width: 169px;
+    height: 48px;
+    border: 2px solid ;
+    border-radius: 12px;
+    padding: 9px, 17px;
+    top: 11px;
+    left: 1096px;
+    border-width: 2px;
+    font-weight: bolder;
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.file-sharing-img, .collect-files-img {
+    width: 350px;
+    height: 350px;
+    /* padding: 50px 50px 0px 200px; */
+    padding-left: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.file-sharing-img {
+    background-image: url('C:/Users/hp/OneDrive/Desktop/internpixelhomepage/src/Assets/filesharing.png');
+    /* width: 472px;
+    height: 472px;
+    justify-content: center; */
+}
+
+.collect-files-img {
+    background-image: url('C:/Users/hp/OneDrive/Desktop/internpixelhomepage/src/Assets/collectfiles.png');
+}
+
+.team-collaboration-img {
+    background-image: url('C:/Users/hp/OneDrive/Desktop/internpixelhomepage/src/Assets/teamcollab.png');
+    width: 515px;
+    height: 494px;
+    margin-left: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

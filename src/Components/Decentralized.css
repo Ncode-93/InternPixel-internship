@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+.decentral-container{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto 150px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 65.62%);   
+
+
+}
+
+.de-right-side{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.de-left-side{
+    width: 740px;
+}
+.h2de-header{
+    top: 3909px;
+    left: 10px;
+    text-align: left;
+    width: 378px;
+    margin: 130px 0 10px 77px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.purple-h2de-header{
+    color: #651fff;
+}
+.pde-header{
+    top: 4115px;
+    color: grey;
+    width: 550px;
+    height: 129px;
+    margin-left: 78px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+}
+
+.de-card-container{
+    width: 700px;
+    display: flex;
+    padding: 20px;
+}
+
+.de-card-uys{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 280px; 
+}
+.de-uys-img{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('C:/Users/hp/OneDrive/Desktop/internpixelhomepage/src/Assets/upgrade.png');
+}
+.de-h2uys{
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+    text-align: left;
+
+}
+
+.de-puys{
+    width: 270px;
+    color: grey;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+
+.de-card-cns{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 280px; 
+}
+.de-cns-img{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('C:/Users/hp/OneDrive/Desktop/internpixelhomepage/src/Assets/carbon.png');
+}
+.de-h2cns{
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+    text-align: left;
+
+}
+
+.de-pcns{
+    width: 280px;
+    color: grey;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+
+
+.de-card-pbd{
+    width: 512px;
+    height: 120px;
+    border-radius: 24px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 170px;
+    display: flex;
+}
+
+
+
+.de-pbd-img{
+    background-image: url('C:/Users/hp/OneDrive/Desktop/internpixelhomepage/src/Assets/pbd1.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f0f4ff;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.de-h2pbd{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.de-ppbd{
+    padding-left: 10px ;
+    display: flex;
+    flex-direction: column;
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.de-card-dn{
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    height: 130px;
+    border-radius: 24px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.de-dn-content{
+    margin-top: -60px;
+    margin-left: 50px;
+}
+
+
+.de-dn-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f0f4ff;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.de-h2dn{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.de-pdn{
+    padding-left: 10px ;
+    display: flex;
+    flex-direction: column;
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.de-card-wa{
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    height: 130px;
+    border-radius: 24px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-top: 20px;
+}
